@@ -1,0 +1,25 @@
+//---------------------------------------------------
+// Nav Layout Styles
+//---------------------------------------------------
+
+.nav {
+  @extend %nav;
+  margin-top: em(24px);
+  @include e(item) {
+    @extend %nav-item;
+    & * {
+      text-decoration: none;
+      color: palette(grey, dark);
+      display: block;
+      height: auto;
+      width: 100%;
+      @include btn-pad(10px, 10px);
+      border-radius: em(5px);
+      margin-bottom: em(8px);
+    }
+    & *:hover {
+      background-color: $color--primary;
+      color: $white;
+    }
+  }
+}

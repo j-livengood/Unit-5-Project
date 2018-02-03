@@ -1,0 +1,72 @@
+//---------------------------------------------------
+// Mixins
+//---------------------------------------------------
+
+// Generate BEM Selectors
+
+// Element
+@mixin e($el) {
+  &__#{$el} {
+    @content;
+  }
+}
+
+// Modifier
+@mixin m($mod) {
+  &--#{$mod} {
+    @content;
+  }
+}
+
+
+
+// Media Querie Breakpoints
+
+@mixin mq($bp) {
+  @if $bp == 'mobile' {
+    @media (min-width: $bp--mobile) {
+      @content;
+    }
+  }
+  @else if $bp == 'tablet' {
+    @media (min-width: $bp--tablet) {
+      @content;
+    }
+  }
+  @else if $bp == 'desktop' {
+    @media (min-width: $bp--desktop) {
+      @content;
+    }
+  }
+  @else {
+    @error 'Please enter a valid breakpoint.';
+  }
+}
+
+
+
+// Flexbox
+
+@mixin fb() {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+// Button Background Color Mixin
+
+@mixin btn-bg-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
+
+
+
+@mixin btn-pad($top, $bottom) {
+  padding-top: em($top);
+  padding-bottom: em($bottom);
+}

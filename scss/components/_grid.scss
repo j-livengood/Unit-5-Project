@@ -1,0 +1,50 @@
+//---------------------------------------------------
+// Grid Layout Styles
+//---------------------------------------------------
+
+// Main Container
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  @extend %centered;
+}
+
+
+
+// Grid Rows and Columns
+
+.grid {
+  @include e(row){
+    width: 100%;
+    margin-top: em(36px);
+  }
+  @include e(col) {
+    @for $i from 2 through 12 {
+      @include m(#{$i}) {
+        flex-grow: $i;
+        margin-bottom: em(10px);
+      }
+    }
+  }
+}
+
+
+
+// Centered Class
+
+.centered {
+  @extend %centered;
+}
+
+
+
+// Theme Color Classes
+
+//.theme {
+//  @include e(colors) {
+//    background-color: #ddd; // figure out how to
+//                            // iterate and apply
+//                            // theme colors
+//  }
+//}

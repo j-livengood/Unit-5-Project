@@ -1,0 +1,19 @@
+//---------------------------------------------------
+// Image Styles
+//---------------------------------------------------
+
+// Generate Image Mods
+
+.img {
+  @include m(logo) {
+    @extend %img;
+  }
+  @include m(frame) {
+    border: 1px solid palette(grey, light);
+    padding: em(8px);
+    @extend %img;
+  }
+  @include m(avatar) {
+    @extend %img;
+  }
+}

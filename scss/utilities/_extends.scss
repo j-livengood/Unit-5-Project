@@ -1,0 +1,65 @@
+//---------------------------------------------------
+// Extends
+//---------------------------------------------------
+
+
+// Center Elements
+
+%centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Link Styles
+
+%link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+// Image Styles
+
+%img {
+  display: block;
+  max-width: 100%;
+  @extend %centered;
+}
+
+
+
+// Headline Styles
+
+%headline {
+  font-family: $font-family--secondary;
+  color: palette($grey, light);
+}
+
+
+
+// Nav Item Styles
+
+%nav {
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+%nav-item {
+  display: block;
+  width: 100%;
+}
+
+
+
+// Button Padding
+
+%btn-pad {
+  padding-top: em(10px);
+  padding-bottom: em(10px);
+}

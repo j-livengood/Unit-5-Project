@@ -1,0 +1,15 @@
+//---------------------------------------------------
+// Functions
+//---------------------------------------------------
+
+// Get Palette Shade
+
+@function palette($palette, $shade: base) {
+  @return map-get(map-get($grey-palette, $palette), $shade);
+}
+
+// Convert to EM
+
+@function em($target, $context: $font-size--base) {
+  @return ($target / $context) * 1em;
+}

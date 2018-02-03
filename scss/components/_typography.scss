@@ -1,0 +1,51 @@
+//---------------------------------------------------
+// Typography
+//---------------------------------------------------
+
+// Main Container
+
+.container {
+  color: palette(grey, dark);
+  font-family: $font-family--primary;
+}
+
+
+
+// Link Typography
+
+.link {
+  text-decoration: none;
+  color: $color--secondary;
+  font-weight: $font-weight--medium;
+}
+
+
+
+// Blockquote Typography
+
+.blockquote {
+  font-size: $font-size--large;
+  font-style: italic;
+  border-left: 5px solid $color--primary;
+  border-radius: em(5px);
+  padding-left: em(12px);
+}
+
+
+
+// Headline Typography
+
+.headline {
+  @include m(primary) {
+    color: $color--primary;
+    font-weight: $font-weight--medium;
+    padding-left: em(12px);
+    margin-bottom: em(16px);
+  }
+  @include m(secondary) {
+    color: palette(grey, light);
+    font-weight: $font-weight--light;
+    font-size: $font-size--medium;
+    margin-bottom: em(16px);
+  }
+}

@@ -1,0 +1,24 @@
+//---------------------------------------------------
+// Forms
+//---------------------------------------------------
+
+.form {
+  margin-top: em(36px);
+  @include e(input) {
+    display: block;
+    color: palette(grey, dark);
+    padding: em(12px);
+    margin-top: em(12px);
+    margin-bottom: em(12px);
+    border-bottom: 5px solid transparent;
+    width: 100%;
+    &:focus {
+      border-bottom-color: $color--primary;
+    }
+  }
+  @include e(label) {
+    &--hidden {
+      display: none;
+    }
+  }
+}

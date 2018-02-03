@@ -1,0 +1,21 @@
+//---------------------------------------------------
+// Buttons
+//---------------------------------------------------
+
+.btn {
+  @include btn-bg-colors($theme-colors);
+}
+
+[class^='btn--'] {
+  display: block;
+  width: 100%;
+  @include btn-pad(10px, 10px);
+  border-radius: em(5px);
+  margin-bottom: em(24px);
+  color: $white;
+  text-transform: uppercase;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
