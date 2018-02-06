@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+/* line 12, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -19,12 +20,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+/* line 25, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
+/* line 33, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 article,
 aside,
 footer,
@@ -37,6 +40,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 47, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -47,6 +51,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+/* line 60, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -56,6 +61,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
+/* line 70, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -63,6 +69,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 79, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -75,6 +82,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 90, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -87,6 +95,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+/* line 103, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -97,6 +106,7 @@ a {
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 113, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -108,6 +118,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+/* line 123, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -115,6 +126,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 132, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -123,6 +135,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 142, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -134,12 +147,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
+/* line 153, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
+/* line 161, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -147,6 +162,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 170, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -154,6 +170,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 179, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -161,9 +178,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
+/* line 187, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
+/* line 191, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -172,6 +191,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
+/* line 202, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -179,6 +199,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
+/* line 211, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -186,12 +207,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
+/* line 220, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
+/* line 228, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -201,6 +224,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 240, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -219,6 +243,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 256, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -228,6 +253,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 266, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -238,6 +264,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 277, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -248,6 +275,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 288, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -258,6 +286,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 300, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -267,6 +296,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
+/* line 311, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -276,6 +306,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 322, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -294,6 +325,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 336, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -303,6 +335,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
+/* line 345, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -310,6 +343,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+/* line 354, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -320,6 +354,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 364, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -328,6 +363,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 374, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -337,6 +373,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+/* line 383, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -345,6 +382,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 393, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -357,6 +395,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+/* line 406, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -364,6 +403,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
+/* line 415, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -372,12 +412,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
+/* line 426, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
+/* line 434, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 template {
   display: none; }
 
@@ -386,269 +428,8 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
+/* line 445, /Users/joramlivengood/Desktop/Treehouse Techdegree/Unit 5/Unit 5 Project/scss/base/_normalize.scss */
 [hidden] {
   display: none; }
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: 0;
-  border: 0; }
-
-.img--logo, .img--frame, .img--avatar, .container, .centered {
-  margin-left: auto;
-  margin-right: auto; }
-
-.img--logo, .img--frame, .img--avatar {
-  display: block;
-  max-width: 100%; }
-
-.nav {
-  list-style: none;
-  display: block;
-  text-align: center;
-  padding: 0;
-  margin: 0; }
-
-.nav__item {
-  display: block;
-  width: 100%; }
-
-.container {
-  color: #959595;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.link {
-  text-decoration: none;
-  color: #59ddfa;
-  font-weight: 500; }
-
-.blockquote {
-  font-size: 24px;
-  font-style: italic;
-  border-left: 5px solid #5fe0c1;
-  border-radius: 0.3125em;
-  padding-left: 0.75em; }
-
-.headline--primary {
-  color: #5fe0c1;
-  font-weight: 500;
-  padding-left: 0.75em;
-  margin-bottom: 1em; }
-.headline--secondary {
-  color: #d5d5d5;
-  font-weight: 300;
-  font-size: 20px;
-  margin-bottom: 1em; }
-
-.container {
-  width: 80%;
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.grid__row {
-  width: 100%;
-  margin-top: 2.25em; }
-  @media (min-width: 1200px) {
-    .grid__row {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center; } }
-.grid__col--2 {
-  flex-grow: 2;
-  margin-bottom: 0.625em; }
-.grid__col--3 {
-  flex-grow: 3;
-  margin-bottom: 0.625em; }
-.grid__col--4 {
-  flex-grow: 4;
-  margin-bottom: 0.625em; }
-.grid__col--5 {
-  flex-grow: 5;
-  margin-bottom: 0.625em; }
-.grid__col--6 {
-  flex-grow: 6;
-  margin-bottom: 0.625em; }
-.grid__col--7 {
-  flex-grow: 7;
-  margin-bottom: 0.625em; }
-.grid__col--8 {
-  flex-grow: 8;
-  margin-bottom: 0.625em; }
-.grid__col--9 {
-  flex-grow: 9;
-  margin-bottom: 0.625em; }
-.grid__col--10 {
-  flex-grow: 10;
-  margin-bottom: 0.625em; }
-.grid__col--11 {
-  flex-grow: 11;
-  margin-bottom: 0.625em; }
-.grid__col--12 {
-  flex-grow: 12;
-  margin-bottom: 0.625em; }
-
-.theme__colors.grid__col--3 {
-  background-color: #cbc1e1; }
-
-.theme__colors.grid__col--4 {
-  background-color: rgba(89, 221, 250, 0.8); }
-
-.theme__colors.grid__col--5 {
-  background-color: rgba(103, 203, 133, 0.8); }
-
-.theme__colors.grid__col--6 {
-  background-color: #45abc8; }
-
-.theme__colors.grid__col--7 {
-  background-color: rgba(226, 118, 124, 0.8); }
-
-.theme__colors.grid__col--8 {
-  background-color: rgba(249, 144, 92, 0.8); }
-
-.theme__colors.grid__col--12 {
-  background-color: rgba(95, 224, 193, 0.8); }
-
-.theme__colors.grid__col--2 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--3 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--4 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--5 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--6 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--7 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--8 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--9 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--10 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--11 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.theme__colors.grid__col--12 {
-  padding: 0.75em;
-  color: #959595;
-  border-radius: 0.3125em;
-  margin-bottom: 1em; }
-
-.nav {
-  margin-top: 1.5em; }
-  .nav__item * {
-    text-decoration: none;
-    color: #959595;
-    display: block;
-    height: auto;
-    width: 100%;
-    padding-top: 0.625em;
-    padding-bottom: 0.625em;
-    border-radius: 0.3125em;
-    margin-bottom: 0.5em; }
-    @media (min-width: 1200px) {
-      .nav__item * {
-        width: 80%;
-        margin-left: 0;
-        margin-right: 0; } }
-  .nav__item *:hover {
-    background-color: #5fe0c1;
-    color: #fff; }
-  @media (min-width: 768px) {
-    .nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: center; }
-      .nav * {
-        margin: 0.75em 0.3125em; } }
-
-.img--frame {
-  border: 1px solid #d5d5d5;
-  padding: 0.5em; }
-
-.btn--default {
-  background-color: #59ddfa; }
-.btn--success {
-  background-color: #67cb85; }
-.btn--error {
-  background-color: #e2767c; }
-.btn--warning {
-  background-color: #f9905c; }
-.btn--info {
-  background-color: #927dbf; }
-
-[class^='btn--'] {
-  display: block;
-  width: 100%;
-  padding-top: 0.625em;
-  padding-bottom: 0.625em;
-  border-radius: 0.3125em;
-  margin-bottom: 1.5em;
-  color: #fff;
-  text-transform: uppercase; }
-  [class^='btn--']:hover {
-    opacity: 0.8;
-    cursor: pointer; }
-
-.form {
-  margin-top: 2.25em; }
-  .form__input {
-    display: block;
-    color: #959595;
-    padding: 0.75em;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
-    border-bottom: 5px solid transparent;
-    width: 100%; }
-    .form__input:focus {
-      border-bottom-color: #5fe0c1; }
-  .form__label--hidden {
-    display: none; }
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=_normalize.css.map */

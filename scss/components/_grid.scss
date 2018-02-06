@@ -6,8 +6,9 @@
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   @extend %centered;
+  @include fb(column);
 }
 
 
@@ -18,7 +19,12 @@
   @include e(row){
     width: 100%;
     margin-top: em(36px);
+    @include mq(desktop) {
+      @include fb(row);
+      align-items: center;
+    }
   }
+  
   @include e(col) {
     @for $i from 2 through 12 {
       @include m(#{$i}) {
@@ -29,6 +35,16 @@
   }
 }
 
+@include grid-colors($grid-colors);
+
+@for $i from 2 through 12 {
+  .theme__colors.grid__col--#{$i} {
+    padding: em(12px);
+    color: palette(grey, dark);
+    border-radius: em(5px);
+    margin-bottom: em(16px);
+  }
+}
 
 
 // Centered Class
@@ -36,15 +52,3 @@
 .centered {
   @extend %centered;
 }
-
-
-
-// Theme Color Classes
-
-//.theme {
-//  @include e(colors) {
-//    background-color: #ddd; // figure out how to
-//                            // iterate and apply
-//                            // theme colors
-//  }
-//}

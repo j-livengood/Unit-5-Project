@@ -69,9 +69,19 @@ $theme-colors: (
   info: $purple-mountain-majesty,
 );
 
+$grid-colors: (
+  col--3: lighten($purple-mountain-majesty, 20%),
+  col--4: transparentize($malibu, 0.2),
+  col--5: transparentize($emerald, 0.2),
+  col--6: #45abc8,
+  col--7: transparentize($sunglo, 0.2),
+  col--8: transparentize($tan-hide, 0.2),
+  col--12: transparentize($viking, 0.2),
+);
+
 
 // Breakpoints
 
 $bp-mobile: 481px;
 $bp-tablet: 768px;
-$bp-desktop: 1024px;
+$bp-desktop: 1200px;

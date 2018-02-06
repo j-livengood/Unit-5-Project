@@ -5,6 +5,7 @@
 .nav {
   @extend %nav;
   margin-top: em(24px);
+  
   @include e(item) {
     @extend %nav-item;
     & * {
@@ -16,10 +17,25 @@
       @include btn-pad(10px, 10px);
       border-radius: em(5px);
       margin-bottom: em(8px);
+      
+      @include mq(desktop) {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
+    
     & *:hover {
       background-color: $color--primary;
       color: $white;
     }
   }
+  
+  @include mq(tablet) {
+    @include fb(row);
+    & * {
+      margin: em(12px) em(5px);
+    }
+  }
+  
 }

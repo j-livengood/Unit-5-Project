@@ -3,7 +3,7 @@
 //---------------------------------------------------
 
 .btn {
-  @include btn-bg-colors($theme-colors);
+  @include theme-colors($theme-colors);
 }
 
 [class^='btn--'] {
