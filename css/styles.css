@@ -419,6 +419,9 @@ template {
 .container {
   color: #959595;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  @media (min-width: 1200px) {
+    .container {
+      font-size: 1.125em; } }
 
 .link {
   text-decoration: none;

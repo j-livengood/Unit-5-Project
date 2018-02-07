@@ -7,6 +7,9 @@
 .container {
   color: palette(grey, dark);
   font-family: $font-family--primary;
+  @include mq(desktop) {
+    font-size: em(18px);
+  }
 }
 
 
