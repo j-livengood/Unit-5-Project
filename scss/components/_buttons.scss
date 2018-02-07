@@ -12,6 +12,8 @@
   @include btn-pad(10px, 10px);
   border-radius: em(5px);
   margin-bottom: em(24px);
+  margin-left: em(5px);
+  margin-right: em(5px);
   color: $white;
   text-transform: uppercase;
   &:hover {

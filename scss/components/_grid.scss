@@ -28,8 +28,16 @@
   @include e(col) {
     @for $i from 2 through 12 {
       @include m(#{$i}) {
-        flex-grow: $i;
         margin-bottom: em(10px);
+        margin-left: em(5px);
+        @include mq(desktop) {
+          @include fb(row) {
+            justify-content: space-around;
+            flex-basis: 100%;
+            flex-grow: $i;
+            max-width: (($i / 12) * 100%);
+          }
+        }
       }
     }
   }
@@ -51,4 +59,10 @@
 
 .centered {
   @extend %centered;
+}
+
+@include mq(desktop) {
+  .centered.grid__col--7 {
+    margin-left: auto;
+  }
 }

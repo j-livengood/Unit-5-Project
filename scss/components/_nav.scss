@@ -5,6 +5,12 @@
 .nav {
   @extend %nav;
   margin-top: em(24px);
+  @include mq(desktop) {
+    margin: 0;
+    & * {
+      padding: em(12px);
+    }
+  }
   
   @include e(item) {
     @extend %nav-item;
@@ -13,19 +19,17 @@
       color: palette(grey, dark);
       display: block;
       height: auto;
-      width: 100%;
+      max-width: 100%;
       @include btn-pad(10px, 10px);
       border-radius: em(5px);
       margin-bottom: em(8px);
-      
-      @include mq(desktop) {
-        width: 80%;
-        margin-left: 0;
-        margin-right: 0;
-      }
     }
     
     & *:hover {
+      background-color: $color--primary;
+      color: $white;
+    }
+    & *:focus {
       background-color: $color--primary;
       color: $white;
     }
@@ -34,7 +38,7 @@
   @include mq(tablet) {
     @include fb(row);
     & * {
-      margin: em(12px) em(5px);
+      margin-left: em(5px);
     }
   }
   
